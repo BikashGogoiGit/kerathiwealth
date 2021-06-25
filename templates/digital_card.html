@@ -1,0 +1,28 @@
+<html>
+<head>
+
+</head>
+<body>
+<form action="http://127.0.0.1:5000/payable_amount" method="post">
+    <img style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;" src="data:image/jpeg;base64,{{ img_data }}" height="200px" width="100px" />
+<br><br>
+<h2 style="text-align:center;">
+    {{what}}</h2>
+    <h2 style="text-align:center;">
+        {{mail}}</h2>
+    <h2 style="text-align:left;">
+        {{product_name}}</h2>
+    {{unique_id}}
+<br>
+<img src="data:image/jpeg;base64,{{ img_data1 }}" height="200px" width="200px"/>
+<p>{{mrp}}</p>
+    <p>
+    <input type="text" name="quantity">
+    </p>
+<p><input type="submit" value="Add to cart"></p>
+</form>
+</body>
+</html>

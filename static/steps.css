@@ -1,0 +1,141 @@
+
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(0.9);
+  }
+  66% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(0.9);
+  }
+  66% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* Component Styles - Steps */
+.steps {
+  margin: 0.6em 0em 0em 0em;
+  display: flex;
+  width: 100%;
+  padding: 0 0 1rem 0;
+  list-style: none;
+  background-color:;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  pointer-events: none;
+}
+.step--active, .step--complete {
+  cursor: pointer;
+  pointer-events: all;
+}
+.step-progress {
+	position: absolute;
+	  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 0.25em;
+  background: #b0b0b2;
+}
+
+.step-progress.complete{
+	background: #3388ff;
+}
+
+.step--complete:after {
+  width: 100% !important;
+  opacity: 1;
+  transition: width 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.step__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #b0b0b2;
+  border: 0.25rem solid #b0b0b2;
+  border-radius: 50%;
+  color: transparent;
+  font-size: 2rem;
+}
+.step__icon:before {
+  display: block;
+  color: #fff;
+  content: "✓";
+}
+.step--complete.step--active .step__icon {
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.step--incomplete.step--active .step__icon {
+  border-color: #3388ff;
+  background-color: #3388ff;
+  transition-delay: 0.5s;
+}
+.step--complete .step__icon {
+  -webkit-animation: bounce 0.5s ease-in-out;
+          animation: bounce 0.5s ease-in-out;
+  background-color: #3388ff;
+  border-color: #3388ff;
+  color: #fff;
+}
+
+.step__label {
+    position: absolute;
+  bottom: -2.6rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+    font-weight: bold;
+
+
+}
+.step--incomplete.step--inactive .step__label {
+  color: #b0b0b2;
+}
+.step--incomplete.step--active .step__label {
+  color: #3388ff;
+}
+.step--complete.step--inactive .step__label {
+  color: #3388ff;
+}
+
+.step--active .step__label {
+  transition: color 0.3s ease-in-out;
+  transition-delay: 0.5s;
+}
+.stepcontainer {
+  width: 63.5em;
+  padding: 1em 3em 2em 3em;
+  margin: 1.8em auto 1em auto ;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+  background-color:#fff;
+}

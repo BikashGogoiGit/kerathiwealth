@@ -1,0 +1,318 @@
+@font-face{
+	src:url(res/fonts/mortonbold.otf);
+	font-family:morton;
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+}
+
+p {
+    font-size: 14px;
+	font-weight:400;
+}
+
+.container {
+    padding-bottom: 80px;
+    width: 400px;
+    margin: 0 auto;
+	
+}
+
+.card {
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 0px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+#home {
+	height:814px;
+       border: 0;
+    border-top: 0px;
+    border-bottom: 0px;
+    background: url() #ffffff00;
+        background-size: contain;
+        background-repeat: no-repeat;
+		background-position:absolute;
+            background-position: 0px 30px;
+}
+
+
+
+.logo img {
+	opacity:1;
+	 position: relative;
+     top: 160px;
+     left:84px;
+      width: 200px;
+	
+    height: 200px;
+    border-radius: 120px;
+    border: 4px solid #ffffff;
+
+}
+.overlay img {
+	opacity:1;
+	position: absolute;
+  top: 0px;
+  left: 0px;
+        width: 100%;
+    margin-top: 0px;
+    
+}
+
+
+.company-info {
+	line-height:1;
+	text-transform: uppercase;
+	position: absolute;
+	top:380px;
+	left:50px;
+    white-space: nowrap;
+	margin-right:10px;
+    text-align:left;
+    color: #073546;
+}
+
+.company-info h2 {
+        font-size: 37px;
+font-weight:600;
+font-family:morton;
+    color: #073546;
+		    background-color: #f3ec78;
+    background-image: linear-gradient(45deg,#0d1a21,#126287);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+	margin-bottom: 0px;
+}
+
+.company-info p {
+    margin-bottom: 0px;
+	font-family:aldo;
+    font-size: 16px;
+	font-weight:300;
+	font-family: 'Asap', sans-serif;
+	
+}
+
+.contact-btns {
+	position: absolute;
+	top:500px;
+	left:50%;
+    white-space: nowrap;
+	transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.contact-btns .cont_btn {
+        background:#26addf;
+    border-radius: 4px;
+    padding: 5px 11px;
+    width: min-content;
+    font-size: 11px;
+    margin: 10px 0px;
+    display: inline-block;
+    box-shadow: 1px 1px 5px 4px #00000070;
+    border-color:#000000;
+	color: #0d0d0d;
+    text-align: center;
+}
+.cont_btn:hover {
+        color: #fff;
+    background-color: #073546;
+    border-color: 	#5dc8ef;
+}
+.cont_btn:focus{
+        color: #fff;
+    background-color: #073546;
+    border-color: #073546;
+}
+
+.contact-details {
+	position: absolute;
+    top:580px;
+	left:100%;
+	transform: translateX(-110%);
+	margin-right:30px;
+    text-align:right;
+}
+
+.contactbox {
+    display: flex;
+    color:black;
+	flex-direction: row-reverse;
+}
+
+.contactbox:after {
+    content: " ";
+    background: transparent;
+    position: relative;
+    /* width: 57px !important; */
+    height: 40px;
+    padding: 2px;
+    
+    
+}
+
+.contactbox i {
+    position: absolute;
+    font-size:15px;
+    padding-top: px;
+    color: #fff;
+}
+
+
+
+.contactbox p {
+
+        margin-right: 30px;
+        color: white;
+    
+}
+
+.download-share-btns {
+	position: absolute;
+	top:640px;
+	left:-60px;
+    white-space: pre;
+	
+
+}
+
+.btn-success {
+    margin-top:5px;
+    color: #0d0d0d;
+    background-color: #26addf;
+    border-color:  #2eb8ea;
+	
+}
+
+.btn-success:hover {
+        color: #fff;
+    background-color: #073546;
+    border-color: 	#5dc8ef;
+}
+.btn-success:focus{
+        color: #fff;
+    background-color: #073546;
+    border-color: #073546;
+}
+
+.card h3 {
+    color: #eab676;
+		text-transform: uppercase;
+    font-size: 18px;
+	text-align:right;
+	margin-top:-10px;
+}
+
+.social-btns {
+	position: absolute;
+    top: 785px;
+    left:50%;
+    white-space: nowrap;
+	transform: translate(-50%, -50%);
+}
+
+.sharebtns ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sharebtns ul > li {
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    width: auto;
+}
+
+.sharebtns i.fa {
+    width: 40px;
+}
+
+.sharebtns i.fab {
+    width: 40px;
+}
+
+
+.sharebtns i.fa.fa-facebook,
+.sharebtns i.fab.fa-linkedin-in,
+.sharebtns i.fab.fa-twitter {
+    background: blue;
+    color: white;
+    padding: 13px;
+}
+
+.sharebtns i.fa.fa-youtube,
+.sharebtns i.fab.fa-instagram,
+.sharebtns i.fab.fa-pinterest {
+    background: red;
+    color: white;
+    padding: 13px;
+}
+
+.sharebtns i.fab.fa-snapchat-ghost{
+    color: black;
+     padding: 13px;
+}
+
+
+
+
+
+
+.popup_sharebtns{
+    list-style: none;
+    padding: 0px;
+}
+.popup_sharebtns .share_btn{
+    float: left;
+        width: 33%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.popup_sharebtns .share_btn i{
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom: 5px;
+        width: 50px;
+}
+.popup_sharebtns .share_btn i.fa-whatsapp{
+    background-color: #519f3a;
+}
+.popup_sharebtns .share_btn i.fa-facebook-f{
+    background-color: #265B9D;
+}
+.popup_sharebtns .share_btn i.fa-twitter{
+    background-color: #00ABE3;
+}
+.popup_sharebtns .share_btn i.fa-linkedin-in{
+    background-color: #007CBC;
+}
+.popup_sharebtns .share_btn i.fa-sms{
+    background-color: #f5de30;
+}
+.popup_sharebtns .share_btn i.fa-envelope{
+    background-color: #27466a;
+}
+.popup_sharebtns .share_btn p{
+    color: #3a3a3a;
+}
+

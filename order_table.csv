@@ -1,0 +1,6 @@
+villege,state,district,post_office,house_no,selling_price,con_quantity,product_tax,total_amount,product_id,company_name,francise_name,company_amount,francise_amount
+dibrugarh,dibrugarh,dibrugarh,BISMILE,4,2000.0,1.0,0.0,2000.0,NULL,NULL,NULL,NULL,NULL
+dibrugarh,dibrugarh,dibrugarh,BISMILE,4,2000.0,2.0,0.0,4000.0,nm,NULL,NULL,NULL,NULL
+dibrugarh,dibrugarh,dibrugarh,BISMILE,4,2000.0,1.0,0.0,2000.0,nm,gogoistore,sharmastore,gogoistore=1800.0,sharmastore=200.0
+dibrugarh,dibrugarh,dibrugarh,BISMILE,4,2000.0,1.0,0.0,2000.0,nm,gogoistore,sharmastore,1800.0,200.0
+dibrugarh,dibrugarh,dibrugarh,BISMILE,4,2000.0,1.0,0.0,2000.0,nm,gogoistore,sharmastore,gogoistore=1800.0,sharmastore=200.0

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>methods</title>
+</head>
+<body>
+<form action="http://localhost:5000/create_card_action" method="post">
+  <label for="package">Select Package</label>
+  <select name="package" id="cars">
+    <option value=""></option>
+    <option value="basic">Basic</option>
+    <option value="premium">Premium</option>
+  </select>
+
+  <p>company_name</p>
+  <p><input type="text" name="company"></p>
+    <p>logo</p>
+    <p><input type="file" name="logo"></p>
+    <p>cover_photo</p>
+    <p><input type="file"  name="cover"></p>
+  <input type="submit" value="submit">
+</form>
+</body>
+</html>

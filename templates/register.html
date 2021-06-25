@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+      <meta charset="UTF-8">
+      <title>Register form</title>
+      <link rel="stylesheet" href="{{url_for('static',filename='register.css')}}">
+    
+    </head>
+    <body>
+    <!-- partial:index.partial.html -->
+    <div class="login-wrap">
+      <div class="middle">
+        <div class="inner">
+      <h2>Register</h2>
+      
+      <form class="form" action="http://127.0.0.1:5000/register_action" method="POST">
+         <input type="text" placeholder="bussiness_type" name="bussiness_type" />
+
+	    <input type="text" placeholder="bussiness_name" name="bussiness_name" />
+        <input type="text" placeholder="Email" name="email" />
+        <input type="password" placeholder="Password" name="password" />
+        <button type="submit" name="submit"> Sign up </button>
+        <a  href="{{url_for('login')}}"> <p class="redirect"> Already have an account?<br> Sign in. </p></a>
+      </form>
+    </div></div></div>
+    <!-- partial -->
+      <script src='https://code.jquery.com/jquery-1.10.0.min.js'></script><script  src="./script.js"></script>
+    
+    </body>
+    </html>
+    

@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+      <meta charset="UTF-8">
+      <title>Login form</title>
+      <link rel="stylesheet" href="{{url_for('static',filename='login.css')}}">
+    
+    </head>
+    <body>
+    <!-- partial:index.partial.html -->
+    <div class="login-wrap">
+      <div class="middle">
+        <div class="inner">
+      <h2>Login</h2>
+      
+      <form class="form" action="http://127.0.0.1:5000/digital_card1" method="POST">
+        
+      <input type="text" placeholder="company_name" name="company_name" />
+      <input type="text" name="theme" placeholder="theme">
+      
+        <button type="submit" name="submit"> Sign in </button>
+        <a href="{{url_for('register')}}"> <p class="redirect"> Don't have an account? Register </p></a>
+      </form>
+    </div></div></div>
+    <!-- partial -->
+      <script src='https://code.jquery.com/jquery-1.10.0.min.js'></script><script  src="./script.js"></script>
+    
+    </body>
+    </html>
+    

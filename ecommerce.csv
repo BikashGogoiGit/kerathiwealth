@@ -1,0 +1,9 @@
+mrp,selling_price,product_tax,prd_image,product_name,unique_id,product_id,company_name,francise_name
+80000,2000,1000,guevara.jpg,jwellery,htc,jwe1,NULL,NULL
+"80,000",2000,1000,guevara.jpg,jwellery,123,jwe1,NULL,NULL
+1000,2000,1000,guevara.jpg,jwellery,890,jwe1,NULL,NULL
+1000,2000,1000,guevara.jpg,jwellery,it123,jwe1,NULL,NULL
+"80,000",2000,1000,guevara.jpg,bg,htc,jwe1,oracle,NULL
+"80,000",85000,1000,guevara.jpg,ball,bn,jwe2,oracle,NULL
+1000,2000,0,guevara.jpg,jwellery,bikashdont,nm,oracle,NULL
+1000,2000,0,guevara.jpg,jwellery,NULL,nm,gogoistore,sharmastore
