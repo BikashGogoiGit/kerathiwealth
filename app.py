@@ -56,7 +56,7 @@ def register_action():
         bussiness_name = request.form['bussiness_name']
         email = request.form['email']
         password = request.form['password']
-        cnx = mysql.connector.connect(user='root', database='e_commerce')
+        cnx = mysql.connector.connect(ser='bcba29ecdd2360', database='heroku_24e66d18bdca2de' password="c533db1f")
         cursor = cnx.cursor()
         query = ("INSERT INTO register" "(bussiness_type,bussiness_name,email,password)"
                  "VALUES(%s,%s,%s,%s)"
