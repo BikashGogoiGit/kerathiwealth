@@ -56,7 +56,7 @@ def register_action():
         bussiness_name = request.form['bussiness_name']
         email = request.form['email']
         password = request.form['password']
-        cnx = mysql.connector.connect(user='bcba29ecdd2360', database='us-cdbr-east-04.cleardb.com', password="c533db1f")
+        cnx = mysql.connector.connect(user='bcba29ecdd2360', host='us-cdbr-east-04.cleardb.com', password="c533db1f")
         cursor = cnx.cursor()
         query = ("INSERT INTO register" "(bussiness_type,bussiness_name,email,password)"
                  "VALUES(%s,%s,%s,%s)"
